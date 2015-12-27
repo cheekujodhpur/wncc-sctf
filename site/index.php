@@ -5,6 +5,7 @@
         <title>WnCC sctf</title>
     </head>
     <body>
-        Hello World
+        <?php include "masthead.php"; ?>
+        <?php include "marquee.php"; ?>
     </body>
 </html>
