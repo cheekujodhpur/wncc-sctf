@@ -14,5 +14,6 @@ session_start();
         <?php include "masthead.php"; ?>
         <?php include "marquee.php"; ?>
         <?php include "userinfo.php"; ?>
+        <?php include "login.php"; ?>
     </body>
 </html>
