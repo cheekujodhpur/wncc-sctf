@@ -6,6 +6,7 @@
 <form action="auth.php" method="POST">
     <label for="username">Username:</label>
     <input type = "text" name = "username" />
+    <br />
     <label for="password">Password:</label>
     <input type = "password" name = "password" />
 
@@ -16,8 +17,12 @@
 <form action="register.php" method="POST">
     <label for="username">Username:</label>
     <input type = "text" name = "username" />
+    <br />
     <label for="password">Password:</label>
     <input type = "password" name = "password" />
+    <br />
+    <label for="repassword">Re-enter Password:</label>
+    <input type = "password" name = "repassword" />
 
     <input type = "submit" value = "Register" />
 </form>
